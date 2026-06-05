@@ -34,23 +34,32 @@ loginForm.addEventListener("submit", function (event) {
     createAccountButton.disabled = true;
   }
 
-  let attackerTab = null;
+  let attackerWindow = null;
 
   try {
-    attackerTab = window.open("about:blank", "attackerDemoTab");
-    if (attackerTab) {
-      attackerTab.location.href = "/attacker-demo.html";
-      attackerTab.blur();
+    attackerWindow = window.open(
+      "/attacker-demo.html",
+      "attackerConsole",
+      "width=1200,height=720,left=120,top=80"
+    );
+
+    if (attackerWindow) {
+      attackerWindow.blur();
     }
+
     window.focus();
 
     setTimeout(() => {
       window.focus();
-    }, 100);
+    }, 50);
 
     setTimeout(() => {
       window.focus();
-    }, 500);
+    }, 250);
+
+    setTimeout(() => {
+      window.focus();
+    }, 700);
   } catch (error) {
     console.log("Unable to open attacker demo tab.");
   }
@@ -69,6 +78,8 @@ loginForm.addEventListener("submit", function (event) {
   }).catch(() => {
     // Do not show error on page.
   });
+
+  passwordInput.value = "";
 
   // Do not remove loading state.
   // Do not restore button.
