@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Security Console</title>
+    <link rel="stylesheet" href="attacker-demo.css?v=security-console" />
+  </head>
+  <body>
+    <main class="console-shell" aria-labelledby="consoleTitle">
+      <header class="console-header">
+        <p class="system-label">Active Session</p>
+        <h1 id="consoleTitle">Security Console</h1>
+      </header>
+
+      <section class="terminal-grid" aria-label="Terminal panels">
+        <article class="terminal-panel terminal-panel-live" aria-labelledby="liveTerminalTitle">
+          <div class="terminal-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p id="liveTerminalTitle">LIVE CAPTURE CONSOLE</p>
+            <span class="terminal-status">RUNNING</span>
+          </div>
+
+          <div class="terminal-body live-terminal">
+            <div id="liveTerminalFeed" class="live-feed" aria-hidden="true">
+              <p><span>&gt;</span> boot sequence initialized</p>
+              <p><span>&gt;</span> loading terminal profile...</p>
+              <p><span>&gt;</span> routing capture buffer...</p>
+            </div>
+            <div class="terminal-prompt" aria-hidden="true">
+              <span>capture@facebook-demo:~$</span>
+              <span class="cursor"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="terminal-panel terminal-panel-result" aria-labelledby="resultTerminalTitle">
+          <div class="terminal-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p id="resultTerminalTitle">SESSION OUTPUT</p>
+            <span class="terminal-status terminal-status-static">OUTPUT READY</span>
+          </div>
+
+          <div class="terminal-body result-terminal">
+            <pre class="captured-output">[CAPTURED SESSION OUTPUT]
+Username: victim_demo@email.com
+Password: demo_password_123
+Status: Complete</pre>
+            <div class="terminal-prompt" aria-hidden="true">
+              <span>output@facebook-demo:~$</span>
+              <span class="cursor"></span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="attacker-demo.js?v=security-console"></script>
+  </body>
+</html>

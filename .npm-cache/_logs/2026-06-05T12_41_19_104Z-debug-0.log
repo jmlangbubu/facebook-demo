@@ -1,0 +1,267 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo\.npm-cache\_logs\2026-06-05T12_41_19_104Z-
+10 verbose logfile C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo\.npm-cache\_logs\2026-06-05T12_41_19_104Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/npm 1181ms
+14 silly idealTree buildDeps
+15 silly fetch manifest bcrypt@^5.1.1
+16 silly packumentCache full:https://registry.npmjs.org/bcrypt cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/bcrypt 236ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/bcrypt set size:undefined disposed:false
+19 silly fetch manifest express@^4.18.3
+20 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/express 143ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+23 silly placeDep ROOT bcrypt@5.1.1 REPLACE for: phishguard-login-awareness-demo@1.0.0 want: ^5.1.1
+24 silly placeDep ROOT express@4.22.2 REPLACE for: phishguard-login-awareness-demo@1.0.0 want: ^4.18.3
+25 silly fetch manifest node-addon-api@^5.0.0
+26 silly packumentCache full:https://registry.npmjs.org/node-addon-api cache-miss
+27 silly fetch manifest @mapbox/node-pre-gyp@^1.0.11
+28 silly packumentCache full:https://registry.npmjs.org/@mapbox%2fnode-pre-gyp cache-miss
+29 silly fetch manifest qs@~6.15.1
+30 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/node-addon-api 130ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/node-addon-api set size:undefined disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/@mapbox%2fnode-pre-gyp 323ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@mapbox%2fnode-pre-gyp set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/qs 352ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/qs set size:undefined disposed:false
+37 silly placeDep ROOT @mapbox/node-pre-gyp@1.0.11 OK for: bcrypt@5.1.1 want: ^1.0.11
+38 silly placeDep ROOT node-addon-api@5.1.0 OK for: bcrypt@5.1.1 want: ^5.0.0
+39 silly fetch manifest tar@^6.1.11
+40 silly packumentCache full:https://registry.npmjs.org/tar cache-miss
+41 silly fetch manifest semver@^7.3.5
+42 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/semver 117ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/tar 134ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/tar set size:undefined disposed:false
+47 silly placeDep node_modules/@mapbox/node-pre-gyp semver@7.8.2 OK for: @mapbox/node-pre-gyp@1.0.11 want: ^7.3.5
+48 silly placeDep node_modules/@mapbox/node-pre-gyp tar@6.2.1 OK for: @mapbox/node-pre-gyp@1.0.11 want: ^6.1.11
+49 silly fetch manifest chownr@^2.0.0
+50 silly packumentCache full:https://registry.npmjs.org/chownr cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/chownr 99ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/chownr set size:undefined disposed:false
+53 silly placeDep ROOT qs@6.15.2 OK for: express@4.22.2 want: ~6.15.1
+54 silly placeDep node_modules/@mapbox/node-pre-gyp chownr@2.0.0 OK for: tar@6.2.1 want: ^2.0.0
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\body-parser'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\bcrypt'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\cors'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\express'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\has-symbols'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\math-intrinsics'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\mkdirp'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\node-addon-api'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\qs'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\semver'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\string_decoder'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\tar'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\@mapbox\\node-pre-gyp'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\aproba'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\balanced-match'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\brace-expansion'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\chownr'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\ansi-regex'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\concat-map'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\color-support',
+74 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support',
+74 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support.cmd',
+74 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support.ps1'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\emoji-regex'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\has-unicode'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\fs.realpath'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\inflight'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\is-fullwidth-code-point'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\glob'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\minimatch'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\once'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\path-is-absolute'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\string-width'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\strip-ansi'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\signal-exit'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\util-deprecate'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\wrappy'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\wide-align'
+89 silly reify ]
+90 silly reify moves {
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\body-parser': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.body-parser-LBQQkLQA',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\bcrypt': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bcrypt-vZ1IgdXx',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\cors': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.cors-xX0z2bex',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\express': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.express-g6cjf7rd',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\has-symbols': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.has-symbols-Wf3ex3ge',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\math-intrinsics': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.math-intrinsics-bfJf3fK9',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\mkdirp': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.mkdirp-yUpfVtws',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\node-addon-api': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.node-addon-api-xq7B9tZi',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\qs': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.qs-mculMklg',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\semver': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.semver-b8vd7FPu',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\string_decoder': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.string_decoder-fOrJalzi',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\tar': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.tar-pIutOmhz',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\@mapbox\\node-pre-gyp': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\@mapbox\\.node-pre-gyp-vTJ2olz8',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\aproba': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.aproba-bllNmpOc',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\balanced-match': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.balanced-match-qJ8Gro5K',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\brace-expansion': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.brace-expansion-dHWKSaTp',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\chownr': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.chownr-TMMeQewp',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\ansi-regex': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.ansi-regex-xOxliRTf',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\concat-map': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.concat-map-58aAWUyg',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\color-support': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.color-support-2dnAdu2q',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\.color-support-foL9D8yD',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support.cmd': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\.color-support.cmd-rBGuwtS5',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\color-support.ps1': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.bin\\.color-support.ps1-GNd8wcEl',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\emoji-regex': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.emoji-regex-uyIknf5b',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\has-unicode': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.has-unicode-mjTGquTh',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\fs.realpath': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.fs.realpath-uFjJds1p',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\inflight': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.inflight-bSsmp0bP',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\is-fullwidth-code-point': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.is-fullwidth-code-point-Q9SFGOPD',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\glob': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.glob-L4pNQxL3',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\minimatch': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.minimatch-vvqxZBpi',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\once': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.once-UNVN0iDc',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\path-is-absolute': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.path-is-absolute-vvaUPhmc',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\string-width': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.string-width-KCnibkXu',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\strip-ansi': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.strip-ansi-eQy8fCW3',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\signal-exit': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.signal-exit-aUn9edlG',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\util-deprecate': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.util-deprecate-WJzv1fgT',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\wrappy': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.wrappy-ujtUtNWV',
+90 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\wide-align': 'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\.wide-align-utLuSXGl'
+90 silly reify }
+91 warn reify invalid or damaged lockfile detected
+91 warn reify please re-try this operation once it completes
+91 warn reify so that the damage can be corrected, or perform
+91 warn reify a fresh install with no lockfile if the problem persists.
+92 verbose reify unrecognized node in tree C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo\node_modules\glob
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\ADMIN\\OneDrive\\Documents\\codes\\phishing\\phishguard-demo\\node_modules\\glob'
+93 silly reify ]
+94 http cache qs@https://registry.npmjs.org/qs/-/qs-6.15.2.tgz 0ms (cache hit)
+95 http cache @mapbox/node-pre-gyp@https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.11.tgz 0ms (cache hit)
+96 http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz 0ms (cache hit)
+97 silly packumentCache corgi:https://registry.npmjs.org/math-intrinsics cache-miss
+98 silly packumentCache corgi:https://registry.npmjs.org/mkdirp cache-miss
+99 silly packumentCache corgi:https://registry.npmjs.org/cors cache-miss
+100 http cache express@https://registry.npmjs.org/express/-/express-4.22.2.tgz 0ms (cache hit)
+101 silly packumentCache corgi:https://registry.npmjs.org/has-symbols cache-miss
+102 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+103 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.2.tgz 0ms (cache hit)
+104 http cache bcrypt@https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz 0ms (cache hit)
+105 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz 0ms (cache hit)
+106 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.15.2.tgz. Extracting by manifest.
+107 silly tarball no local data for @mapbox/node-pre-gyp@https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.11.tgz. Extracting by manifest.
+108 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz. Extracting by manifest.
+109 http cache tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz 0ms (cache hit)
+110 silly tarball no local data for express@https://registry.npmjs.org/express/-/express-4.22.2.tgz. Extracting by manifest.
+111 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.2.tgz. Extracting by manifest.
+112 silly tarball no local data for bcrypt@https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz. Extracting by manifest.
+113 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz. Extracting by manifest.
+114 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz. Extracting by manifest.
+115 http fetch GET 200 https://registry.npmjs.org/mkdirp 136ms (cache miss)
+116 silly packumentCache corgi:https://registry.npmjs.org/mkdirp set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 143ms (cache miss)
+118 silly packumentCache corgi:https://registry.npmjs.org/math-intrinsics set size:undefined disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/cors 146ms (cache miss)
+120 silly packumentCache corgi:https://registry.npmjs.org/cors set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 169ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 164ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.6.tgz 163ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz 410ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/body-parser 614ms (cache miss)
+126 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/has-symbols 650ms (cache miss)
+128 silly packumentCache corgi:https://registry.npmjs.org/has-symbols set size:undefined disposed:false
+129 warn tar ENOENT: Cannot cd into 'C:/Users/ADMIN/OneDrive/Documents/codes/phishing/phishguard-demo/node_modules/body-parser'
+130 silly tar mr [CwdError]: ENOENT: Cannot cd into 'C:/Users/ADMIN/OneDrive/Documents/codes/phishing/phishguard-demo/node_modules/body-parser'
+130 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:40861
+130 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+130 silly tar     at FSReqCallback.oncomplete (node:fs:195:21) {
+130 silly tar   path: 'C:/Users/ADMIN/OneDrive/Documents/codes/phishing/phishguard-demo/node_modules/body-parser',
+130 silly tar   code: 'ENOENT',
+130 silly tar   syscall: 'chdir'
+130 silly tar }
+131 verbose cwd C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo
+132 verbose os Windows_NT 10.0.26200
+133 verbose node v24.14.1
+134 verbose npm  v11.11.0
+135 notice
+135 notice New minor version of npm available! 11.11.0 -> 11.16.0
+135 notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0
+135 notice To update run: npm install -g npm@11.16.0
+135 notice  { force: true, Symbol(proc-log.meta): true }
+136 verbose exit 1
+137 verbose code 1
+138 error A complete log of this run can be found in: C:\Users\ADMIN\OneDrive\Documents\codes\phishing\phishguard-demo\.npm-cache\_logs\2026-06-05T12_41_19_104Z-debug-0.log

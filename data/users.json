@@ -1,0 +1,16 @@
+[
+  {
+    "id": "606e75d4-876e-44e9-9dce-37071baba33a",
+    "username": "admin",
+    "passwordHash": "$2b$10$kmMR2xIDcSeLsp8ZBIIw0.y2A3VRerntmu8DT0k0jGGfJKWgHEdGq",
+    "role": "Admin",
+    "createdAt": "2026-06-05T14:42:38.347Z"
+  },
+  {
+    "id": "00e00b85-8e98-4e42-a987-32d9c914f27b",
+    "username": "student",
+    "passwordHash": "$2b$10$Z3xU9WsUUngjs2jVgFwozeYeq/J2pr1ogcE02RJQ5VdUDFGG9j2Ou",
+    "role": "Student",
+    "createdAt": "2026-06-05T14:42:38.347Z"
+  }
+]
